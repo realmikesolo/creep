@@ -2,6 +2,7 @@
   "extends": "@hibanka/ts-config",
   "compilerOptions": {
     "outDir": "./.build",
+    "strictNullChecks": false
   },
   "include": [
     "./src",
