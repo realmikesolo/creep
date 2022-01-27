@@ -24,6 +24,7 @@
     "discord.js": "^13.5.0",
     "dota2-api": "^0.2.1",
     "dotenv": "^10.0.0",
+    "mongoose": "^6.1.8",
     "steamapi": "^2.2.0"
   }
 }

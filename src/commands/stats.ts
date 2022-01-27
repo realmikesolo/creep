@@ -32,7 +32,7 @@ export class StatsCommand {
           accountInfo.rank_tier % 10 === 0 ? accountInfo.leaderboard_rank : accountInfo.rank_tier % 10
         } `,
         `Wins: ${winlose.win}`,
-        `Loses: ${winlose.lose}`,
+        `Losses: ${winlose.lose}`,
         `Winrate: ${Math.floor(((winlose.win * 100) / (winlose.win + winlose.lose)) * 10) / 10}%`,
         `Most played heroes: ${heroes.find(({ id }) => id === +playerHeroes[0].hero_id).localized_name}, ${
           heroes.find(({ id }) => id === +playerHeroes[1].hero_id).localized_name
